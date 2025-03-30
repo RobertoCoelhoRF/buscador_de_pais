@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalhes do País</title>
+    <link rel="stylesheet" href="styledasecundaria.css" />
+    <script defer src="/Backend/informacoes.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="titulo">Detalhes do País</h1>
+      <button class="back-button"onclick="goBack()">Voltar</button>
+    </header>
+    <main class="principal">
+      <section class="country-details">
+        <h2 id="name">Carregando...</h2>
+        <img id="flag" src="" alt="Bandeira" />
+        <p><strong>Nome Oficial:</strong> <span id="officialName"></span></p>
+        <p><strong>Capital:</strong> <span id="capital"></span></p>
+        <p><strong>Língua:</strong> <span id="language"></span></p>
+        <p><strong>Moeda:</strong> <span id="currency"></span></p>
+        <p><strong>Continente:</strong> <span id="continent"></span></p>
+        <p><strong>População:</strong> <span id="population"></span></p>
+        <p><strong>Área Geográfica:</strong> <span id="area"></span> km²</p>
+        <p><strong>Localização:</strong> <a id="mapsLink" href="#" target="_blank">Abrir no Maps</a></p>
+      </section>
+    </main>
+  </body>
+  <footer class="rodape">
+    <div>
+        <p>Contato: (88) 95555-5555</p>
+    </div>
+    <div>
+    <ul class="rodape__lista">
+        <li class="lista__link">
+            <a href="#">Idioma</a>
+        </li>
+        <li class="lista__link">
+            <a href="#">Dispositivos compatíveis</a>
+        </li>
+        <li class="lista__link">
+            <a href="#">Politica de privacidade</a>
+        </li>
+        <li class="lista__link">
+            <a href="#">Ajuda</a>
+        </li>
+    </ul>
+   </div>
+   <div class="direitos">
+    <p class="rodape__texto">® 2025 Roberto Coelho. Todos os direitos reservados</p>
+</div>
+</footer>
+</html>

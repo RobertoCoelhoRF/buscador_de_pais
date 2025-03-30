@@ -5,7 +5,7 @@ O objetivo do projeto é buscar países e mostrar suas informações utilizando 
 ## Design do projeto
 
 ![Design do projeto](imagemreadme.png)
-![Design do projeto](imagereadme2.png)
+![Design do projeto](imagemreadme2.png)
 
 ## API utilizada
 
